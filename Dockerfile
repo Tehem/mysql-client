@@ -1,3 +1,3 @@
-FROM gliderlabs/alpine:3.1
+FROM alpine:2.6
 RUN apk --update add mysql-client
 ENTRYPOINT ["mysql"]
